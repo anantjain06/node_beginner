@@ -5,6 +5,7 @@ const pixGrid = (function () {
         return (theImage.style.top = `${myDifY  }px`), (theImage.style.left = `${myDifX  }px`), theImage;
     }
     let myNode = document.querySelector(".pixgrid");
+	if(myNode)
     myNode.addEventListener(
         "click",
         function (e) {
@@ -73,4 +74,7 @@ const pixGrid = (function () {
         },
         !1
     );
+
+
+
 })();

@@ -6,7 +6,7 @@ module.exports = () => {
     router.get("/", async (request, response, next) => {
         try {
             return response.render("layout", {
-                pageTitle: "Duck Portfolio - Documentation",
+                pageTitle: "Portfolio Project",
                 template: "docs",
             });
         } catch (err) {

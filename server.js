@@ -60,7 +60,7 @@ app.set("view engine", "ejs");
 // Expects the template to be in the "views" folder
 app.set("views", path.join(__dirname, "./views"));
 
-app.locals.siteName = "Untitled Duck Project";
+app.locals.siteName = "Portfolio Project";
 
 
 // Before routing handlers are defined, there needs to be

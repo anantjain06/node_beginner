@@ -1,7 +1,7 @@
 {
-    "name": "duck-project",
+    "name": "PortFolio",
     "version": "1.0.0",
-    "description": "This project is a collaboration between Duck Labs and EvolveU that aims to teach students the entirety of the spectrum of full-stack web development.",
+    "description": "This is PortFolio Project",
     "main": "server.js",
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1",
@@ -10,15 +10,15 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/brennanbrown/duck-project.git"
+        "url": ""
     },
     "keywords": [
         "nodejs",
         "express",
         "bootstrap"
     ],
-    "author": "Brennan K. Brown",
-    "license": "MIT",
+    "author": "Test",
+    "license": "",
     "devDependencies": {
         "eslint": "^6.8.0",
         "eslint-config-airbnb-base": "^14.1.0",
@@ -42,11 +42,11 @@
         "http-errors": "^1.7.3"
     },
     "bugs": {
-        "url": "https://github.com/brennanbrown/duck-project/issues"
+        "url": ""
     },
     "engines": {
         "node": "10.x",
         "npm": "6.14.4"
     },
-    "homepage": "https://github.com/brennanbrown/duck-project#readme"
+    "homepage": ""
 }

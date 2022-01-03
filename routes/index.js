@@ -27,7 +27,7 @@ module.exports = params => {
         try {
             const getList = await projectService.getList();
             return response.render("layout", {
-                pageTitle: "Duck Portfolio - Home 🦆",
+                pageTitle: "Portfolio Home",
                 template: "index",
                 getList
             });
